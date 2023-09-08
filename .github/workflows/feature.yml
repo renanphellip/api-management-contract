@@ -8,4 +8,4 @@ on:
 jobs:
   feature:
     name: Feature
-    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-feature.yml@main
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/feature.yml@main

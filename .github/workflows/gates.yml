@@ -13,4 +13,4 @@ on:
 jobs:
   gates:
     name: Gates
-    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-gates.yml@main
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/gates.yml@main
