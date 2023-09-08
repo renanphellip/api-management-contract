@@ -1,5 +1,3 @@
-name: '1. Feature'
-
 on:
   push:
     branches:
