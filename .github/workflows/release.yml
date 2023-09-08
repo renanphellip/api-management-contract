@@ -8,6 +8,6 @@ on:
       - 'release/v*'
 
 jobs:
-  release:
-    name: Release
+  default:
+    name: Default
     uses: renanphellip/api-management-nested-workflows/.github/workflows/release.yml@main

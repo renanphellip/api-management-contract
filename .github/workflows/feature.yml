@@ -1,9 +1,11 @@
+name: '1. Feature'
+
 on:
   push:
     branches:
       - 'feature/*'
 
 jobs:
-  feature:
-    name: Feature
+  default:
+    name: Default
     uses: renanphellip/api-management-nested-workflows/.github/workflows/feature.yml@main
