@@ -10,4 +10,4 @@ on:
 jobs:
   develop:
     name: Develop
-    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-develop.yml@main
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/develop.yml@main

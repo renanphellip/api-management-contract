@@ -10,4 +10,4 @@ on:
 jobs:
   main:
     name: Main
-    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-main.yml@main
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/main.yml@main
