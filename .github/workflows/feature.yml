@@ -1,0 +1,8 @@
+on:
+  push:
+    branches:
+      - 'feature*'
+
+jobs:
+  feature:
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-feature.yml@main

@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+    branches:
+      - 'release*'
+
+jobs:
+  gates:
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-gates.yml@main

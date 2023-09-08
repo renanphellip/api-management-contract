@@ -1,0 +1,10 @@
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - 'release*'
+
+jobs:
+  release:
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-release.yml@main

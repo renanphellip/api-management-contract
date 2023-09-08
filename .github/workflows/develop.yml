@@ -1,0 +1,10 @@
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - develop
+
+jobs:
+  develop:
+    uses: renanphellip/api-management-nested-workflows/.github/workflows/core-develop.yml@main
