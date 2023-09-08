@@ -6,7 +6,7 @@ on:
       - reopened
       - synchronize
     branches:
-      - 'release*'
+      - 'release/v*'
 
 jobs:
   gates:
