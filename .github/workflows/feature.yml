@@ -1,8 +1,10 @@
+name: '1 - [FEAT] CI'
+
 on:
   push:
     branches:
       - 'feature/*'
 
 jobs:
-  feature:
+  feat:
     uses: renanphellip/api-management-nested-workflows/.github/workflows/core-feature.yml@main
