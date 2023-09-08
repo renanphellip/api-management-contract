@@ -8,6 +8,6 @@ on:
       - main
 
 jobs:
-  default:
-    name: Default
+  main:
+    name: Main
     uses: renanphellip/api-management-nested-workflows/.github/workflows/main.yml@main

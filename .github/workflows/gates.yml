@@ -11,6 +11,6 @@ on:
       - 'release/v*'
 
 jobs:
-  default:
-    name: Default
+  gates:
+    name: Gates
     uses: renanphellip/api-management-nested-workflows/.github/workflows/gates.yml@main

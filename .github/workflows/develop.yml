@@ -8,6 +8,6 @@ on:
       - develop
 
 jobs:
-  default:
-    name: Default
+  develop:
+    name: Develop
     uses: renanphellip/api-management-nested-workflows/.github/workflows/develop.yml@main
