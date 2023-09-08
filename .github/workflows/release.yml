@@ -1,3 +1,5 @@
+name: '4. Release'
+
 on:
   pull_request:
     types:
@@ -7,4 +9,5 @@ on:
 
 jobs:
   release:
+    name: Release
     uses: renanphellip/api-management-nested-workflows/.github/workflows/core-release.yml@main
