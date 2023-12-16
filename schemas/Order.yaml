@@ -24,6 +24,6 @@ properties:
       - approved
       - delivered
   complete:
-    type: boolean
+    type: string
 xml:
   name: order
