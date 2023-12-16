@@ -600,7 +600,7 @@ paths:
 components:
   schemas:
     Order:
-      $ref: 'schemas/Order.yaml'
+      $ref: './schemas/Order.yaml'
     Customer:
       type: object
       properties:
